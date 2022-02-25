@@ -17,3 +17,6 @@ Execute Project.cs. The program will ask for your input. your input must be of t
 The search function can be found in subclass MCTS, method MonteCarloTreeSearch. To disable debug data being outputted, comment "debug_data();" on line 548. Other parameters that can be adjusted:
 - graph size -> change the value of const int size in line 421
 - approximate time per turn -> change the value of approx_time_per_turn in line 632
+
+# Bitmasking
+Bitmasking was implemented on the board to allow faster simulations. Subclass Board is a bitmask implementation of classical Tic Tac Toe. Subclass Macro is a modification that allows for neutral moves (when no player wins in a mini board). Subclass Game is a simulator of Ultimate Tic Tac Toe, which also extensively uses bitmasking.
