@@ -1,5 +1,5 @@
 # Ultimate-Tic-Tac-Toe-AI
-Monte Carlo Tree Search implementation for playing Ultimate Tic Tac Toe
+Monte Carlo Tree Search implementation for playing Ultimate Tic Tac Toe.
 
 # Ultimate Tic Tac Toe
 Ultimate Tic Tac Toe is a variation of classical Tic Tac Toe, with nine small boards, each individually represening a separate game of Tic Tac Toe.
